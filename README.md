@@ -1,14 +1,11 @@
-# Job Title Standardization Project
+# Job Title Standardization
 
-This project standardizes raw job titles from various sources to a predefined list, enabling accurate analysis of job data across different countries and languages.
+## Project Description
+This project standardizes raw job titles to a predefined list of job titles, enabling better insights into job data across different countries and languages.
 
-## Features
-
-- **Data Preprocessing**: Load and clean job titles data.
-- **Fuzzy Matching**: Map raw job titles to a standard list.
-- **Translation**: Translate job titles to English.
-- **Semantic Matching**: Ensure accurate matching using TF-IDF and cosine similarity.
-- **Visualization**: Visualize job titles distribution, similarity scores, and translation effectiveness.
-
-## Project Structure
-
+## Setup Instructions
+1. Clone the repository.
+2. Create a virtual environment and activate it.
+3. Install the required packages:
+   ```sh
+   pip install -r requirements.txt
